@@ -1,0 +1,8 @@
+version: '3'
+services:
+  tri_test:
+    build: .
+    environment:
+      - APP_SETTINGS=tri_test.config.StagingConfig
+    ports:
+      - "5000:5000"
